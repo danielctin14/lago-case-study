@@ -1,0 +1,11 @@
+# secrets & local state
+.env
+data/*.db
+data/*.jsonl
+data/*.log
+# case material that must not be published
+*.pdf
+# python
+.venv/
+__pycache__/
+*.pyc
